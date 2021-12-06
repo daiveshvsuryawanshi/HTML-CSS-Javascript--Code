@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>grade calculator</title>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+<div class="container">
+  <h1>Student grade calculator </h1>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject"> Marathi</label>
+      </div>
+      <div class="col-75">
+        <input  type="text" id="s1" autocomplete="off">
+      </div>
+    </div>
+
+   
+
+    <div class="row">
+      <div class="col-25">
+        <label for="subject"> English</label>
+      </div>
+      <div class="col-75">
+        <input  type="text" id="s2" autocomplete="off">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-25">
+        <label for="subject"> Math</label>
+      </div>
+      <div class="col-75">
+        <input  type="text" id="s3" autocomplete="off">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-25">
+        <label for="subject"> Physic</label>
+      </div>
+      <div class="col-75">
+        <input  type="text" id="s4" autocomplete="off">
+      </div>
+    </div>
+
+ 
+    <div class="row">
+      <div class="col-25">
+        <label for="subject"> Chemisrty</label>
+      </div>
+      <div class="col-75">
+        <input  type="text" id="s5" autocomplete="off">
+      </div>
+    </div>
+  
+  <div class="row">
+    <button onclick="claculate()">Calculate Result</button>
+  </div>
+ 
+
+  <div class="row">
+    <p id="sum"></p>
+    <p id="percentage"></p>
+    <p id="grade"></p>
+    <h3 id="message"></h3>
+  </div>
+</div>
+
+
+
+
+<script src="app.js"></script>
+</body>
+
+</html>
